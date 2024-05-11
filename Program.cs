@@ -11,3 +11,14 @@
 string[] array = {"Hello", "2", "world", ":-)"};
 
 int countLengthNewArray = 0;
+
+for (int i = 0; i < array.Length; i++)
+{
+    if (array[i].Length <= 3)
+    {
+        countLengthNewArray++;
+    }
+}
+
+
+
