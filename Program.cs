@@ -52,4 +52,8 @@ void PrintArray(string[] array)
     Console.Write("]");
 }
 
+string[] newArray = CreateArrayElementLengthLessOrEqualThree(array, countLengthNewArray);
+PrintArray(array);
+Console.WriteLine();
+PrintArray(newArray);
 
